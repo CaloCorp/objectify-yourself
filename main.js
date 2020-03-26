@@ -48,7 +48,7 @@ myself.age = 28
 myself.address = {}
 
 // Now push three strings into that array.
-const addressLines=['7 Conway Court', 'New City', 'NY 10956']
+myself.address.push('my phone')
 
 // Now make a new object, but this time we'll pre-populate it,
 // not set it in any lines below it. In other words,
@@ -66,6 +66,7 @@ const newObject={
   favColor: 'blue',
   saying: 'Go ahead make my day',
   age : 42,
+  [powerLevelOver9000]: true,
   luckynumbers:[5, 7, 9, 3],
   corruptionType: {
     greed:{level: 'max'
