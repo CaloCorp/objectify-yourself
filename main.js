@@ -25,7 +25,7 @@ myCodeImmersivesObj.cumalativeScore= myCodeImmersivesObj.cumalativeScore + myCod
 
 myCodeImmersivesObj.cumalativeScore;
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
-myCodeImmersivesObj
+myCodeImmersivesObj['I am exactly this cool']= `soooooo cool`;
 
 // Now make a new EMPTY object that represents yourself.
 const myself= { }
