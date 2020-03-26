@@ -49,9 +49,7 @@ myself.address = {}
 
 // Now push three strings into that array.
 const addressLines=['7 Conway Court', 'New City', 'NY 10956']
-myself.address.push(addressLines)
 
-console.log(myself.address)
 // Now make a new object, but this time we'll pre-populate it,
 // not set it in any lines below it. In other words,
 // the properties should be set the same way I initially set
@@ -65,10 +63,14 @@ console.log(myself.address)
 // below the declaration of the object.
 
 const newObject={
-  color: blue,
+  favColor: 'blue',
   saying: 'Go ahead make my day',
   age : 42,
-  
+  luckynumbers:[5, 7, 9, 3],
+  corruptionType: {
+    greed:{level: 'max'
+    }
+  }
 
 }
 // As a further stretch goal, add a function that takes in a key name as a string and changes the corresponding value in the object you just made to be the string 'overwritten DYNAMICALLY'. Now call it with the name of one of your keys and see if it works! This will all take some research... Good luck!
